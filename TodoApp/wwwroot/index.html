@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>TodoApp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="lib/twitter-bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-4">TodoApp</h1>
+
+        <form id="frmNewTodo" class="row">
+            <div class="col-auto">
+                <input type="text" id="newTodo" value="" required class="form-control" />
+            </div>
+            <div class="col-auto ps-0">
+                <button class="btn btn-primary">Add</button>
+            </div>
+        </form>
+
+        <table class="table mt-3">
+            <thead>
+                <tr>
+                    <th>Is Complete?</th>
+                    <th>To-do</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="todos"></tbody>
+        </table>
+    </div>
+    <script src="lib/twitter-bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/site.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+﻿https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-5.0&tabs=visual-studio
+
+Install-Package Microsoft.EntityFrameworkCore.InMemory
+
+https://www.tjvantoll.com/2015/09/13/fetch-and-errors/
